@@ -1,3 +1,13 @@
+body {
+    background-color: #5e6166;
+    flex-basis: 1200px;
+}
+
+img {
+    width: 100%;
+}
+
+
 .hidden {
     /*    display: none;*/
     /*    transform: scale(0);*/
@@ -10,10 +20,21 @@
 }
 
 #menu {
+    background-color: #3a3b3d;
+    color: white;
+    padding: 1rem;
     list-style-type: none;
     transition: transform .3s;
     transform-origin: top right;
 }
+
+#img {
+    flex-basis: 600px;
+}
+
+
+
+
 
 @media only screen and (min-width: 600px) {
 
