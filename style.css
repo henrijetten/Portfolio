@@ -32,6 +32,12 @@ img {
     flex-basis: 600px;
 }
 
+#background {
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(Neon_1.gif);
+    background-size: 100%;
+    position: absolute;
 
 
 
