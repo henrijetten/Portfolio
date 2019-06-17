@@ -162,16 +162,16 @@ header nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 20px;
-    margin-bottom: 00px;
-    padding-left: 200px;
-    padding-right: 200px;
+    margin-top: 3vw;
+    margin-bottom: 0vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 #buttons a {
     width: 100px;
     text-decoration: none;
-    padding: 10px;
+    padding: 0.7vw;
     border-radius: 50px;
     border: 1px solid #c53bea;
     color: white;
@@ -188,11 +188,13 @@ header nav a {
 
     #menuknap {
         display: none;
+        color: white;
     }
 
     #menu.hidden {
         transform: translateX(0);
         opacity: 1;
+        color: white;
     }
 
     #menu li {
