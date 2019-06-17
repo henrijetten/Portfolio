@@ -66,7 +66,7 @@ header nav a {
 
     width: 100px;
     text-decoration: none;
-    padding: 0.5em;
+    padding: 0.1em;
     border-bottom: 2px solid #c53bea;
     color: white;
     text-align: center;
@@ -82,7 +82,7 @@ header nav a {
 .background {
     width: 100vw;
     height: 56.25vw;
-    background-image: url(Neon_1.gif);
+    background-image: url(Neon2.gif);
     background-size: 100%;
     position: absolute;
 }
@@ -186,6 +186,13 @@ header nav a {
 }
 @media only screen and (min-width: 600px) {
 
+.background {
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(Neon_1.gif);
+    background-size: 100%;
+    position: absolute;
+}
     #menuknap {
         display: none;
         color: white;
