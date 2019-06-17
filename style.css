@@ -151,10 +151,38 @@ header nav a {
     margin-left: 14vw;
     margin-right: 14vw;
     margin-top: 3vw;
+    margin-bottom: 2vw;
 
     font-family: 'helvetica';
     'sans serif';
     color: white;
+}
+
+#buttons .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 00px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#buttons a {
+    width: 100px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #c53bea;
+    color: white;
+    font-family: 'leixodemo';
+    font-size: 1rem;
+    text-align: center;
+}
+
+#buttons a:hover {
+    background-color: #c53bea;
+    color: black;
 }
 @media only screen and (min-width: 600px) {
 
