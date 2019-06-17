@@ -9,14 +9,14 @@ body {
 @font-face {
     font-family: 'leixodemo';
     src: url('leixo-demo-webfont.woff2') format('woff2'),
-         url('leixo-demo-webfont.woff') format('woff');
+        url('leixo-demo-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 h1 {
-    font-family: 'leixodemo'; 'sans-serif';
+    font-family: 'leixodemo';'sans-serif';
     color: white;
     font-size: 3rem;
 }
@@ -38,19 +38,16 @@ img {
 }
 
 #menu {
-    background-color:
     color: white;
     padding: 1rem;
     list-style-type: none;
     transition: transform .3s;
     transform-origin: top right;
-    font-family: 'leixodemo';'helvetica';
-    'sans-serif';
+    font-family: 'leixodemo';'helvetica';'sans-serif';
     font-size: 1.5rem;
-
 }
 
-#menu :hover {
+#menu:hover {
     background-color: #c53bea;
     color: black;
 }
@@ -63,21 +60,18 @@ header nav {
 }
 
 header nav a {
-
     width: 100px;
     text-decoration: none;
     padding: 0.1em;
     border-bottom: 2px solid #c53bea;
     color: white;
     text-align: center;
-    font-family: 'leixodemo';'helvetica';
+    font-family: 'leixodemo';
+    'helvetica';
     'sans-serif';
     font-size: 20px;
-
 }
 
-
-#img {}
 
 .background {
     width: 100vw;
@@ -91,8 +85,6 @@ header nav a {
     position: absolute;
     top: 40vw;
     left: 43vw;
-
-
 }
 
 #enter_sprite {
@@ -103,7 +95,7 @@ header nav a {
 }
 
 .cvuo {
-    font-family: 'leixodemo'; 'helvetica'; 'sans-serif';
+    font-family: 'leixodemo';'helvetica'; 'sans-serif';
     color: white;
     font-size: 3rem;
 }
@@ -115,16 +107,13 @@ header nav a {
     margin-left: 14vw;
     margin-right: 14vw;
     margin-top: 3vw;
-
-    font-family: 'helvetica';
-    'sans serif';
+    font-family: 'helvetica';'sans serif';
     color: white;
 }
 
 .text1 {
     margin-left: 1vw;
     margin-top: 3vw;
-
 }
 
 .skole {
@@ -133,15 +122,13 @@ header nav a {
 }
 
 .cv_text {
-    font-family: 'helvetica';
-    'sans serif';
+    font-family: 'helvetica';'sans serif';
     font-size: 1rem;
     margin-left: 21.5vw;
     margin-right: 21.5vw;
     margin-top: 1.5vw;
     color: white;
 }
-
 
 .tema {
     display: flex;
@@ -151,9 +138,7 @@ header nav a {
     margin-right: 14vw;
     margin-top: 3vw;
     margin-bottom: 2vw;
-
-    font-family: 'helvetica';
-    'sans serif';
+    font-family: 'helvetica';'sans serif';
     color: white;
 }
 
@@ -183,15 +168,17 @@ header nav a {
     background-color: #c53bea;
     color: black;
 }
+
 @media only screen and (min-width: 600px) {
 
-.background {
-    width: 100vw;
-    height: 56.25vw;
-    background-image: url(Neon_1.gif);
-    background-size: 100%;
-    position: absolute;
-}
+    .background {
+        width: 100vw;
+        height: 56.25vw;
+        background-image: url(Neon_1.gif);
+        background-size: 100%;
+        position: absolute;
+    }
+
     #menuknap {
         display: none;
         color: white;
