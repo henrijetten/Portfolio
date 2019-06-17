@@ -5,6 +5,22 @@ body {
 
 }
 
+
+@font-face {
+    font-family: 'leixodemo';
+    src: url('leixo-demo-webfont.woff2') format('woff2'),
+         url('leixo-demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: 'leixodemo'; 'sans-serif';
+    color: white;
+    font-size: 3rem;
+}
+
 img {
     width: 100%;
 }
@@ -28,7 +44,7 @@ img {
     list-style-type: none;
     transition: transform .3s;
     transform-origin: top right;
-    font-family: 'helvetica';
+    font-family: 'leixodemo';'helvetica';
     'sans-serif';
     font-size: 1.5rem;
 
@@ -49,7 +65,7 @@ header nav a {
     border-bottom: 2px solid #c53bea;
     color: white;
     text-align: center;
-    font-family: 'helvetica';
+    font-family: 'leixodemo';'helvetica';
     'sans-serif';
     font-size: 20px;
 
@@ -81,6 +97,11 @@ header nav a {
 }
 
 
+.cvuo {
+    font-family: 'leixodemo'; 'helvetica'; 'sans-serif';
+    color: white;
+    font-size: 3rem;
+}
 
 .CV1 {
     display: flex;
@@ -101,10 +122,6 @@ header nav a {
 
 }
 
-.cvuo {
-    font-size: 3vw;
-}
-
 .skole {
     margin-top: -3vw;
     margin-bottom: 1vw;
@@ -116,6 +133,7 @@ header nav a {
     font-size: 1rem;
     margin-left: 21.5vw;
     margin-right: 21.5vw;
+    margin-top: 1.5vw;
     color: white;
 }
 
